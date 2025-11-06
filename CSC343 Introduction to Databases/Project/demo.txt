@@ -1,0 +1,1099 @@
+davidwang@Davids-MacBook-Pro ~ % scp ~/Desktop/championData.txt wangr110@dbsrv1.teach.cs.toronto.edu:/h/u8/c8/00/wangr110/practice
+wangr110@dbsrv1.teach.cs.toronto.edu's password: 
+championData.txt                              100%   26KB 713.4KB/s   00:00    
+davidwang@Davids-MacBook-Pro ~ % scp ~/Desktop/schema.ddl wangr110@dbsrv1.teach.cs.toronto.edu:/h/u8/c8/00/wangr110/practice
+wangr110@dbsrv1.teach.cs.toronto.edu's password: 
+schema.ddl                                    100% 1927    79.2KB/s   00:00
+davidwang@Davids-MacBook-Pro-2 ~ % scp -r ~/Desktop/UT/Course/Year\ 4/CSC343/Project/queries.sql wangr110@dbsrv1.teach.cs.toronto.edu:/h/u8/c8/00/wangr110/practice
+wangr110@dbsrv1.teach.cs.toronto.edu's password:
+queries.sql                                   100% 3273    94.2KB/s   00:00
+
+davidwang@Davids-MacBook-Pro ~ % ssh wangr110@dbsrv1.teach.cs.toronto.edu
+wangr110@dbsrv1.teach.cs.toronto.edu's password: 
+    Type "faq" to view FAQ, and "rules" to view usage policy.
+    Report system problems by sending email to <sysadmin@teach.cs.toronto.edu>.
+
+The Teaching Labs are: BA2200 BA2210 BA2220 BA2240 BA2270 BA3175 BA3185 BA3195 BA3200
+
+Teaching Labs are operating in reduced capacity. See https://www.teach.cs.toronto.edu/fall2020
+
+This is a shared Linux system. By using this system, you acknowledge that
+some information about your computer account (e.g. login name, process data,
+etc.) will be available to other users sharing this system, in ways 
+typical of shared Linux systems.  
+
+Last login: Fri Oct 30 03:39:26 2020 from bras-base-toroon0954w-grc-68-142-113-221-16.dsl.bell.ca
+dbsrv1:~$ cd practice
+dbsrv1:~/practice$ psql csc343h-wangr110
+psql (10.14 (Ubuntu 10.14-0ubuntu0.18.04.1))
+Type "help" for help.
+
+csc343h-wangr110=> \i schema.ddl;
+psql:schema.ddl:1: NOTICE:  drop cascades to 19 other objects
+DETAIL:  drop cascades to type champion.season
+drop cascades to type champion.posi
+drop cascades to type champion.type
+drop cascades to type champion.region
+drop cascades to table champion.team
+drop cascades to table champion.league
+drop cascades to table champion.player
+drop cascades to table champion.worldchampion
+drop cascades to table champion.register
+drop cascades to table champion.matches
+drop cascades to table champion.youngest
+drop cascades to table champion.oldest
+drop cascades to view champion.championplayers
+drop cascades to view champion.playerage
+drop cascades to table champion.fate
+drop cascades to view champion.similarmatch
+drop cascades to table champion.toughgame
+drop cascades to view champion.toughmatches
+drop cascades to view champion.toughteam
+DROP SCHEMA
+CREATE SCHEMA
+SET
+CREATE DOMAIN
+CREATE DOMAIN
+CREATE DOMAIN
+CREATE DOMAIN
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+
+csc343h-wangr110=> \i championData.txt;
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+
+csc343h-wangr110=> \i queries.sql
+SET
+psql:queries.sql:7: NOTICE:  table "youngest" does not exist, skipping
+DROP TABLE
+psql:queries.sql:8: NOTICE:  table "oldest" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+psql:queries.sql:25: NOTICE:  view "championplayers" does not exist, skipping
+DROP VIEW
+psql:queries.sql:26: NOTICE:  view "playerage" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+INSERT 0 3
+INSERT 0 1
+psql:queries.sql:67: NOTICE:  table "fate" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+psql:queries.sql:77: NOTICE:  view "similarmatch" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+INSERT 0 2
+psql:queries.sql:104: NOTICE:  table "toughgame" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+psql:queries.sql:113: NOTICE:  view "toughmatches" does not exist, skipping
+DROP VIEW
+psql:queries.sql:114: NOTICE:  view "toughteam" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+INSERT 0 7
+
+csc343h-wangr110=> select * from Team;
+  tid   |          teamname           | establishyear | exist 
+--------+-----------------------------+---------------+-------
+ FNC    | Fanatic                     |          2011 | t
+ aAa    | against All authority       |          2010 | t
+ TSM    | Team Solomid                |          2011 | t
+ EG     | Epik Gamer                  |          2011 | f
+ TPA    | Taipei Assassins            |          2012 | t
+ AZF    | Azubu Frost                 |          2012 | f
+ M5     | Moscow Five                 |          2011 | f
+ CLG.EU | Counter Logic Gaming Europe |          2011 | f
+ SKT    | SK Telecom T1               |          2013 | f
+ RYL    | Royal Club                  |          2012 | t
+ NJBS   | NaJin Black Sword           |          2012 | t
+ SSW    | Samsung White               |          2013 | f
+ SSB    | Samsung Blue                |          2013 | f
+ OMG    | Oh My God                   |          2012 | t
+ KOO    | ROX Tiger                   |          2014 | f
+ OG     | Origen                      |          2014 | f
+ SSG    | Samsung Galaxy              |          2013 | f
+ ROX    | ROX Tigers                  |          2014 | f
+ H2K    | H2k-Gaming                  |          2011 | f
+ RNG    | Royal Never Give Up         |          2015 | t
+ WE     | Team WE                     |          2011 | t
+ C9     | Cloud9                      |          2012 | t
+ G2     | G2 Esports                  |          2015 | t
+ IG     | Invictus Gaming             |          2011 | t
+ FPX    | FunPlus Phoenix             |          2017 | t
+ TES    | Top Esports                 |          2019 | t
+ SN     | Suning                      |          2016 | t
+ DWG    | DAMWON Gaming               |          2017 | t
+(28 rows)
+
+csc343h-wangr110=> select * from League;
+  tid   | lid |               leaguename                |  region  
+--------+-----+-----------------------------------------+----------
+ EG     | LCS | League of Legends Championship Series   | Americas
+ TSM    | LCS | League of Legends Championship Series   | Americas
+ aAa    | LEC | League of Legends European Championship | Europe
+ FNC    | LEC | League of Legends European Championship | Europe
+ TPA    | LMS | League of Legends Master Series         | Asia
+ AZF    | LCK | League of Legends Champions Korea       | Asia
+ CLG.EU | LEC | League of Legends European Championship | Europe
+ M5     | LCL | League of Legends Continental League    | Asia
+ SKT    | LCK | League of Legends Champions Korea       | Asia
+ RYL    | LPL | Tencent League of Legends Pro League    | Asia
+ NJBS   | LCK | League of Legends Champions Korea       | Asia
+ SSW    | LCK | League of Legends Champions Korea       | Asia
+ OMG    | LPL | Tencent League of Legends Pro League    | Asia
+ SSB    | LCK | League of Legends Champions Korea       | Asia
+ OG     | LEC | League of Legends European Championship | Europe
+ KOO    | LCK | League of Legends Champions Korea       | Asia
+ H2K    | LEC | League of Legends European Championship | Europe
+ ROX    | LCK | League of Legends Champions Korea       | Asia
+ SSG    | LCK | League of Legends Champions Korea       | Asia
+ RNG    | LPL | Tencent League of Legends Pro League    | Asia
+ WE     | LPL | Tencent League of Legends Pro League    | Asia
+ C9     | LCS | League of Legends Championship Series   | Americas
+ G2     | LEC | League of Legends European Championship | Europe
+ IG     | LPL | Tencent League of Legends Pro League    | Asia
+ FPX    | LPL | Tencent League of Legends Pro League    | Asia
+ SN     | LPL | Tencent League of Legends Pro League    | Asia
+ TES    | LPL | Tencent League of Legends Pro League    | Asia
+ DWG    | LCK | League of Legends Champions Korea       | Asia
+(28 rows)
+
+csc343h-wangr110=> select * from Player;
+ pid |     name     | birth 
+-----+--------------+-------
+   1 | wewillfailer |  1990
+   2 | xPeke        |  1992
+   3 | Cyanide      |  1994
+   4 | Shushei      |  1989
+   5 | LamiaZealot  |  1989
+   6 | Mellisan     |  1989
+  42 | puszu        |     0
+  79 | Huni         |  1997
+  80 | Reignover    |  1995
+  81 | Febiven      |  1996
+  82 | Rekkles      |  1996
+  90 | Bwipo        |  1998
+ 130 | Broxah       |  1997
+ 131 | Caps         |  1999
+ 132 | Hylissang    |  1995
+   7 | sOAZ         |  1994
+   8 | Linak        |     0
+   9 | MoMa         |  1991
+  10 | YellOwStaR   |  1992
+  11 | kujaa        |     0
+  12 | TheRainMan   |  1990
+  13 | TheOddOne    |  1988
+  14 | Reginald     |  1992
+  15 | Chaox        |  1991
+  16 | Xpecial      |  1992
+  17 | Westrice     |  1992
+  18 | Dan Dinh     |     0
+  19 | Salce        |  1992
+  20 | Dyrus        |  1994
+  21 | Doublelift   |  1993
+  22 | Stanley      |  1991
+  23 | Lilballz     |  1988
+  24 | Toyz         |  1992
+  25 | bebe         |  1991
+  26 | MiSTakE      |  1989
+  27 | Shy          |  1991
+  28 | CloudTemplar |  1988
+  29 | RapidStar    |  1993
+  30 | Woong        |  1990
+  31 | MadLife      |  1992
+  32 | Darien       |  1991
+  33 | Diamondprox  |  1992
+  34 | Alex Ich     |  1992
+  35 | Genja        |  1988
+  36 | GoSu Pepper  |  1994
+  37 | Wickd        |  1994
+  38 | Snoopeh      |  1991
+  39 | Froggen      |  1994
+  40 | yellowpete   |  1989
+  41 | Krepo        |  1990
+  43 | Expression   |  1992
+  44 | Watch        |  1992
+  45 | Nagne        |  1994
+  46 | PraY         |  1994
+  47 | Cain         |  1987
+  48 | GoDlike      |  1993
+  49 | Lucky        |  1993
+  50 | Wh1t3zZ      |     0
+  51 | Uzi          |  1997
+  52 | Tabe         |  1991
+  74 | Cola         |  1994
+  75 | inSec        |  1993
+  76 | corn         |  1997
+  77 | Zero         |  1994
+  78 | VicaL        |  1986
+  53 | Impact       |  1995
+  54 | Bengi        |  1993
+  55 | Faker        |  1996
+  56 | Piglet       |  1994
+  57 | PoohManDu    |  1991
+  93 | MaRin        |  1991
+  94 | Easyhoon     |  1992
+  95 | Bang         |  1996
+  96 | Wolf         |  1996
+  97 | Duke         |  1994
+  98 | Blank        |  1998
+ 140 | Khan         |  1998
+ 141 | Clid         |  1998
+ 142 | Teddy        |  1998
+ 143 | Effort       |  1998
+  58 | Looper       |  1993
+  59 | Dandy        |  1994
+  60 | PawN         |  1997
+  61 | imp          |  1995
+  62 | Mata         |  1994
+  63 | Acorn        |  1990
+  64 | Spirit       |  1996
+  65 | Dade         |  1994
+  66 | Deft         |  1996
+  67 | Heart        |  1988
+  68 | Gogoing      |  1991
+  69 | Loveling     |  1993
+  70 | cool         |  1994
+  71 | san          |  1993
+  72 | DaDa777      |  1989
+  73 | Cloud        |  1994
+  84 | Smeb         |  1995
+  85 | Hojin        |  1992
+  86 | Kuro         |  1994
+  87 | PraY         |  1994
+  88 | GorillA      |  1994
+  91 | Amazing      |  1994
+  92 | Niels        |  1997
+  83 | Mithy        |  1994
+  99 | CuVee        |  1996
+ 100 | Ambition     |  1992
+ 101 | Crown        |  1995
+ 102 | Ruler        |  1998
+ 103 | Wraith       |  1995
+ 104 | CoreJJ       |  1994
+ 105 | Peanut       |  1998
+ 106 | Odoamne      |  1995
+ 107 | Jankos       |  1995
+ 108 | Ryu          |  1994
+ 109 | FORG1VEN     |  1992
+ 110 | Vander       |  1994
+ 111 | Letme        |  1996
+ 112 | Mlxg         |  1996
+ 113 | Xiaohu       |  1998
+ 114 | Ming         |  1998
+ 115 | 957          |  1993
+ 116 | Condi        |  1996
+ 117 | xiye         |  1997
+ 118 | Mystic       |  1995
+ 119 | Ben          |  1995
+ 120 | TheShy       |  1999
+ 158 | Ning         |  1998
+ 159 | Rookie       |  1997
+ 160 | JackeyLove   |  2000
+ 161 | Baolan       |  1999
+ 139 | Leyan        |  2002
+ 162 | Wunder       |  1998
+ 127 | Perkz        |  1998
+ 128 | Hjarnan      |  1993
+ 129 | Wadid        |  1997
+ 138 | Mikyx        |  1998
+ 121 | Licorice     |  1997
+ 122 | Svenskeren   |  1996
+ 123 | Jensen       |  1995
+ 124 | Sneaky       |  1994
+ 125 | Zeyzal       |  1999
+ 126 | Blaber       |  2000
+ 133 | GimGoon      |  1995
+ 134 | Tian         |  2000
+ 135 | Doinb        |  1996
+ 136 | Lwx          |  1998
+ 137 | Crisp        |  1998
+ 144 | Nuguri       |  1999
+ 145 | Canyon       |  2001
+ 146 | ShowMaker    |  2000
+ 147 | Ghost        |  1999
+ 148 | BeryL        |  1997
+ 149 | Bin          |  2002
+ 150 | SofM         |  1998
+ 151 | Angel        |  2000
+ 152 | huanfeng     |  2001
+ 153 | SwordArt     |  1996
+ 154 | 369          |  2001
+ 155 | Karsa        |  1997
+ 156 | knight       |  2000
+ 157 | yuyanjia     |  1997
+(161 rows)
+
+csc343h-wangr110=> select * from WorldChampion;
+ season | year | champion | secondplace
+--------+------+----------+-------------
+ S1     | 2011 | FNC      | aAa
+ S2     | 2012 | TPA      | AZF
+ S3     | 2013 | SKT      | RYL
+ S4     | 2014 | SSW      | RYL
+ S5     | 2015 | SKT      | KOO
+ S6     | 2016 | SKT      | SSG
+ S7     | 2017 | SSG      | SKT
+ S8     | 2018 | IG       | FNC
+ S9     | 2019 | FPX      | G2
+ S10    | 2020 | DWG      | SN
+(10 rows)
+
+csc343h-wangr110=> select * from Register;
+ pid |  tid   | season | position 
+-----+--------+--------+----------
+   1 | FNC    | S1     | top
+   2 | FNC    | S1     | top
+   7 | aAa    | S1     | top
+  12 | TSM    | S1     | top
+  17 | EG     | S1     | top
+   3 | FNC    | S1     | jgl
+   8 | aAa    | S1     | jgl
+  13 | TSM    | S1     | jgl
+  18 | EG     | S1     | jgl
+   4 | FNC    | S1     | mid
+   9 | aAa    | S1     | mid
+  14 | TSM    | S1     | mid
+  19 | EG     | S1     | mid
+   5 | FNC    | S1     | bot
+  10 | aAa    | S1     | bot
+  15 | TSM    | S1     | bot
+  20 | EG     | S1     | bot
+   6 | FNC    | S1     | sup
+  11 | aAa    | S1     | sup
+  16 | TSM    | S1     | sup
+  21 | EG     | S1     | sup
+  22 | TPA    | S2     | top
+  23 | TPA    | S2     | jgl
+  24 | TPA    | S2     | mid
+  25 | TPA    | S2     | bot
+  26 | TPA    | S2     | sup
+  27 | AZF    | S2     | top
+  28 | AZF    | S2     | jgl
+  29 | AZF    | S2     | mid
+  30 | AZF    | S2     | bot
+  31 | AZF    | S2     | sup
+  32 | M5     | S2     | top
+  33 | M5     | S2     | jgl
+  34 | M5     | S2     | mid
+  35 | M5     | S2     | bot
+  36 | M5     | S2     | sup
+  37 | CLG.EU | S2     | top
+  38 | CLG.EU | S2     | jgl
+  39 | CLG.EU | S2     | mid
+  40 | CLG.EU | S2     | bot
+  41 | CLG.EU | S2     | sup
+   7 | FNC    | S3     | top
+   3 | FNC    | S3     | jgl
+   2 | FNC    | S3     | mid
+  42 | FNC    | S3     | bot
+  10 | FNC    | S3     | sup
+  43 | NJBS   | S3     | top
+  44 | NJBS   | S3     | jgl
+  45 | NJBS   | S3     | mid
+  46 | NJBS   | S3     | bot
+  47 | NJBS   | S3     | sup
+  48 | RYL    | S3     | top
+  49 | RYL    | S3     | jgl
+  50 | RYL    | S3     | mid
+  51 | RYL    | S3     | bot
+  52 | RYL    | S3     | sup
+  53 | SKT    | S3     | top
+  54 | SKT    | S3     | jgl
+  55 | SKT    | S3     | mid
+  56 | SKT    | S3     | bot
+  57 | SKT    | S3     | sup
+  58 | SSW    | S4     | top
+  59 | SSW    | S4     | jgl
+  60 | SSW    | S4     | mid
+  61 | SSW    | S4     | bot
+  62 | SSW    | S4     | sup
+  63 | SSB    | S4     | top
+  64 | SSB    | S4     | jgl
+  65 | SSB    | S4     | mid
+  66 | SSB    | S4     | bot
+  67 | SSB    | S4     | sup
+  74 | RYL    | S4     | top
+  75 | RYL    | S4     | jgl
+  76 | RYL    | S4     | mid
+  51 | RYL    | S4     | bot
+  77 | RYL    | S4     | sup
+  78 | RYL    | S4     | sup
+  68 | OMG    | S4     | top
+  69 | OMG    | S4     | jgl
+  70 | OMG    | S4     | mid
+  71 | OMG    | S4     | bot
+  72 | OMG    | S4     | sup
+  93 | SKT    | S5     | top
+  54 | SKT    | S5     | jgl
+  55 | SKT    | S5     | mid
+  94 | SKT    | S5     | mid
+  95 | SKT    | S5     | bot
+  96 | SKT    | S5     | sup
+  84 | KOO    | S5     | top
+  85 | KOO    | S5     | jgl
+  86 | KOO    | S5     | mid
+  87 | KOO    | S5     | bot
+  88 | KOO    | S5     | sup
+  79 | FNC    | S5     | top
+  80 | FNC    | S5     | jgl
+  81 | FNC    | S5     | mid
+  82 | FNC    | S5     | bot
+  10 | FNC    | S5     | sup
+   7 | OG     | S5     | top
+  91 | OG     | S5     | jgl
+   2 | OG     | S5     | mid
+  92 | OG     | S5     | bot
+  93 | OG     | S5     | sup
+  97 | SKT    | S6     | top
+  54 | SKT    | S6     | jgl
+  98 | SKT    | S6     | jgl
+  55 | SKT    | S6     | mid
+  95 | SKT    | S6     | bot
+  96 | SKT    | S6     | sup
+  99 | SSG    | S6     | top
+ 100 | SSG    | S6     | jgl
+ 101 | SSG    | S6     | mid
+ 102 | SSG    | S6     | bot
+ 103 | SSG    | S6     | sup
+ 104 | SSG    | S6     | sup
+  84 | ROX    | S6     | top
+ 105 | ROX    | S6     | jgl
+  86 | ROX    | S6     | mid
+  87 | ROX    | S6     | bot
+  88 | ROX    | S6     | sup
+ 106 | H2K    | S6     | top
+ 107 | H2K    | S6     | jgl
+ 108 | H2K    | S6     | mid
+ 109 | H2K    | S6     | bot
+ 110 | H2K    | S6     | sup
+  97 | SKT    | S7     | top
+  54 | SKT    | S7     | jgl
+  98 | SKT    | S7     | jgl
+  55 | SKT    | S7     | mid
+  95 | SKT    | S7     | bot
+  96 | SKT    | S7     | sup
+  99 | SSG    | S7     | top
+ 100 | SSG    | S7     | jgl
+ 101 | SSG    | S7     | mid
+ 102 | SSG    | S7     | bot
+ 104 | SSG    | S7     | sup
+ 111 | RNG    | S7     | top
+ 112 | RNG    | S7     | jgl
+ 113 | RNG    | S7     | mid
+  51 | RNG    | S7     | bot
+ 114 | RNG    | S7     | sup
+ 115 | WE     | S7     | top
+ 116 | WE     | S7     | jgl
+ 117 | WE     | S7     | mid
+ 118 | WE     | S7     | bot
+ 119 | WE     | S7     | sup
+  97 | IG     | S8     | top
+ 120 | IG     | S8     | top
+ 158 | IG     | S8     | jgl
+ 159 | IG     | S8     | mid
+ 160 | IG     | S8     | bot
+ 161 | IG     | S8     | sup
+   7 | FNC    | S8     | top
+  90 | FNC    | S8     | top
+ 130 | FNC    | S8     | jgl
+ 131 | FNC    | S8     | mid
+  82 | FNC    | S8     | bot
+ 132 | FNC    | S8     | sup
+ 162 | G2     | S8     | top
+ 107 | G2     | S8     | jgl
+ 127 | G2     | S8     | mid
+ 128 | G2     | S8     | bot
+ 129 | G2     | S8     | sup
+ 121 | C9     | S8     | top
+ 122 | C9     | S8     | jgl
+ 123 | C9     | S8     | jgl
+ 124 | C9     | S8     | mid
+ 125 | C9     | S8     | bot
+ 126 | C9     | S8     | sup
+ 133 | FPX    | S9     | top
+ 134 | FPX    | S9     | jgl
+ 135 | FPX    | S9     | mid
+ 136 | FPX    | S9     | bot
+ 137 | FPX    | S9     | sup
+ 162 | G2     | S9     | top
+ 107 | G2     | S9     | jgl
+ 131 | G2     | S9     | mid
+ 127 | G2     | S9     | bot
+ 138 | G2     | S9     | sup
+ 120 | IG     | S9     | top
+ 139 | IG     | S9     | jgl
+ 158 | IG     | S9     | jgl
+ 159 | IG     | S9     | mid
+ 160 | IG     | S9     | bot
+ 161 | IG     | S9     | sup
+ 140 | SKT    | S9     | top
+ 141 | SKT    | S9     | jgl
+  55 | SKT    | S9     | mid
+ 142 | SKT    | S9     | bot
+ 143 | SKT    | S9     | sup
+  62 | SKT    | S9     | sup
+ 144 | DWG    | S10    | top
+ 145 | DWG    | S10    | jgl
+ 146 | DWG    | S10    | mid
+ 147 | DWG    | S10    | bot
+ 148 | DWG    | S10    | sup
+ 149 | SN     | S10    | top
+ 150 | SN     | S10    | jgl
+ 151 | SN     | S10    | mid
+ 152 | SN     | S10    | bot
+ 153 | SN     | S10    | sup
+ 154 | TES    | S10    | top
+ 155 | TES    | S10    | jgl
+ 156 | TES    | S10    | mid
+ 160 | TES    | S10    | bot
+ 157 | TES    | S10    | sup
+ 162 | G2     | S10    | top
+ 107 | G2     | S10    | jgl
+ 131 | G2     | S10    | mid
+ 127 | G2     | S10    | bot
+ 138 | G2     | S10    | sup
+(211 rows)
+
+csc343h-wangr110=> select * from Matches;
+ mid | season | team1 | team2  | score1 | score2 |   type    
+-----+--------+-------+--------+--------+--------+-----------
+   1 | S1     | aAa   | FNC    |      0 |      2 | Semifinal
+   2 | S1     | aAa   | TSM    |      2 |      0 | Semifinal
+   3 | S1     | FNC   | aAa    |      2 |      1 | Final
+   4 | S2     | M5    | TPA    |      1 |      2 | Semifinal
+   5 | S2     | AZF   | CLG.EU |      2 |      1 | Semifinal
+   6 | S2     | TPA   | AZF    |      3 |      1 | Final
+   7 | S3     | SKT   | NJBS   |      3 |      2 | Semifinal
+   8 | S3     | RYL   | FNC    |      3 |      1 | Semifinal
+   9 | S3     | SKT   | RYL    |      3 |      0 | Final
+  10 | S4     | SSW   | SSB    |      3 |      0 | Semifinal
+  11 | S4     | RYL   | OMG    |      3 |      2 | Semifinal
+  12 | S4     | SSW   | RYL    |      3 |      1 | Final
+  13 | S5     | OG    | SKT    |      0 |      3 | Semifinal
+  14 | S5     | FNC   | KOO    |      0 |      3 | Semifinal
+  15 | S5     | SKT   | KOO    |      3 |      1 | Final
+  16 | S6     | SKT   | ROX    |      3 |      2 | Semifinal
+  17 | S6     | SSG   | H2K    |      3 |      0 | Semifinal
+  18 | S6     | SKT   | SSG    |      3 |      2 | Final
+  19 | S7     | SKT   | RNG    |      3 |      2 | Semifinal
+  20 | S7     | SSG   | WE     |      3 |      1 | Semifinal
+  21 | S7     | SKT   | SSG    |      0 |      3 | Final
+  22 | S8     | FNC   | C9     |      3 |      0 | Semifinal
+  23 | S8     | G2    | IG     |      0 |      3 | Semifinal
+  24 | S8     | FNC   | IG     |      0 |      3 | Final
+  25 | S9     | G2    | SKT    |      3 |      1 | Semifinal
+  26 | S9     | IG    | FPX    |      1 |      3 | Semifinal
+  27 | S9     | G2    | FPX    |      0 |      3 | Final
+  28 | S10    | TES   | SN     |      1 |      3 | Semifinal
+  29 | S10    | G2    | DWG    |      1 |      3 | Semifinal
+  30 | S10    | SN    | DWG    |      1 |      3 | Final
+(30 rows)
+
+csc343h-wangr110=> select * from youngest;
+  name   | age | league
+---------+-----+--------
+ Cyanide |  17 | LEC
+ Faker   |  17 | LCK
+ PawN    |  17 | LCK
+(3 rows)
+
+csc343h-wangr110=> select * from oldest;
+   name   | age | league
+----------+-----+--------
+ Ambition |  25 | LCK
+(1 row)
+
+csc343h-wangr110=> select * from fate;
+ teamname1 | teamname2 | matches
+-----------+-----------+---------
+ SKT       | SSG       |       2
+ aAa       | FNC       |       2
+(2 rows)
+
+csc343h-wangr110=> select * from toughgame;
+      teamname       | toughgame
+---------------------+-----------
+ SK Telecom T1       |         4
+ Oh My God           |         1
+ ROX Tigers          |         1
+ NaJin Black Sword   |         1
+ Royal Never Give Up |         1
+ Samsung Galaxy      |         1
+ Royal Club          |         1
+(7 rows)

@@ -1,0 +1,579 @@
+insert into Team values ('FNC', 'Fanatic', 2011, TRUE);
+insert into Team values ('aAa', 'against All authority', 2010, TRUE);
+insert into Team values ('TSM', 'Team Solomid', 2011, TRUE);
+insert into Team values ('EG', 'Epik Gamer', 2011, FALSE);
+
+insert into Team values ('TPA', 'Taipei Assassins', 2012, TRUE);
+insert into Team values ('AZF', 'Azubu Frost', 2012, FALSE);
+insert into Team values ('M5', 'Moscow Five', 2011, FALSE);
+insert into Team values ('CLG.EU', 'Counter Logic Gaming Europe', 2011, FALSE);
+
+insert into Team values ('SKT', 'SK Telecom T1', 2013, FALSE);
+insert into Team values ('RYL', 'Royal Club', 2012, TRUE);
+insert into Team values ('NJBS', 'NaJin Black Sword', 2012, TRUE);
+
+insert into Team values ('SSW', 'Samsung White', 2013, FALSE);
+insert into Team values ('SSB', 'Samsung Blue', 2013, FALSE);
+insert into Team values ('OMG', 'Oh My God', 2012, TRUE);
+
+insert into Team values ('KOO', 'ROX Tiger', 2014, FALSE);
+insert into Team values ('OG', 'Origen', 2014, FALSE);
+
+insert into Team values ('SSG', 'Samsung Galaxy', 2013, FALSE);
+insert into Team values ('ROX', 'ROX Tigers', 2014, FALSE);
+insert into Team values ('H2K', 'H2k-Gaming', 2011, FALSE);
+
+insert into Team values ('RNG', 'Royal Never Give Up', 2015, TRUE);
+insert into Team values ('WE', 'Team WE', 2011, TRUE);
+
+insert into Team values ('C9', 'Cloud9', 2012, TRUE);
+insert into Team values ('G2', 'G2 Esports', 2015, TRUE);
+insert into Team values ('IG', 'Invictus Gaming', 2011, TRUE);
+
+insert into Team values ('FPX', 'FunPlus Phoenix', 2017, TRUE);
+
+insert into Team values ('TES', 'Top Esports', 2019, TRUE);
+insert into Team values ('SN', 'Suning', 2016, TRUE);
+insert into Team values ('DWG', 'DAMWON Gaming', 2017, TRUE);
+
+
+
+
+
+insert into League values ('EG', 'LCS', 'League of Legends Championship Series', 'Americas');
+insert into League values ('TSM', 'LCS', 'League of Legends Championship Series', 'Americas');
+insert into League values ('aAa', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('FNC', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('TPA', 'LMS', 'League of Legends Master Series', 'Asia');
+insert into League values ('AZF', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('CLG.EU', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('M5', 'LCL', 'League of Legends Continental League', 'Asia');
+insert into League values ('SKT', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('RYL', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('NJBS', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('SSW', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('OMG', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('SSB', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('OG', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('KOO', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('H2K', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('ROX', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('SSG', 'LCK', 'League of Legends Champions Korea', 'Asia');
+insert into League values ('RNG', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('WE', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('C9', 'LCS', 'League of Legends Championship Series', 'Americas');
+insert into League values ('G2', 'LEC', 'League of Legends European Championship', 'Europe');
+insert into League values ('IG', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('FPX', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('SN', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('TES', 'LPL', 'Tencent League of Legends Pro League', 'Asia');
+insert into League values ('DWG', 'LCK', 'League of Legends Champions Korea', 'Asia');
+
+
+
+
+
+
+
+-- FNC
+insert into Player values (1, 'wewillfailer', 1990);
+insert into Player values (2, 'xPeke', 1992);
+insert into Player values (3, 'Cyanide', 1994);
+insert into Player values (4, 'Shushei', 1989);
+insert into Player values (5, 'LamiaZealot', 1989);
+insert into Player values (6, 'Mellisan', 1989);
+insert into Player values (42, 'puszu', 0);
+insert into Player values (79, 'Huni', 1997);
+insert into Player values (80, 'Reignover', 1995);
+insert into Player values (81, 'Febiven', 1996);
+insert into Player values (82, 'Rekkles', 1996);
+insert into Player values (90, 'Bwipo', 1998);
+insert into Player values (130, 'Broxah', 1997);
+insert into Player values (131, 'Caps', 1999);
+insert into Player values (132, 'Hylissang', 1995);
+
+-- aAa
+insert into Player values (7, 'sOAZ', 1994);
+insert into Player values (8, 'Linak', 0);
+insert into Player values (9, 'MoMa', 1991);
+insert into Player values (10, 'YellOwStaR', 1992);
+insert into Player values (11, 'kujaa', 0);
+
+-- TSM
+insert into Player values (12, 'TheRainMan', 1990);
+insert into Player values (13, 'TheOddOne', 1988);
+insert into Player values (14, 'Reginald', 1992);
+insert into Player values (15, 'Chaox', 1991);
+insert into Player values (16, 'Xpecial', 1992);
+
+-- EG
+insert into Player values (17, 'Westrice', 1992);
+insert into Player values (18, 'Dan Dinh', 0);
+insert into Player values (19, 'Salce', 1992);
+insert into Player values (20, 'Dyrus', 1994);
+insert into Player values (21, 'Doublelift', 1993);
+
+-- TPA
+insert into Player values (22, 'Stanley', 1991);
+insert into Player values (23, 'Lilballz', 1988);
+insert into Player values (24, 'Toyz', 1992);
+insert into Player values (25, 'bebe', 1991);
+insert into Player values (26, 'MiSTakE', 1989);
+
+-- AZF
+insert into Player values (27, 'Shy', 1991);
+insert into Player values (28, 'CloudTemplar', 1988);
+insert into Player values (29, 'RapidStar', 1993);
+insert into Player values (30, 'Woong', 1990);
+insert into Player values (31, 'MadLife', 1992);
+
+-- M5
+insert into Player values (32, 'Darien', 1991);
+insert into Player values (33, 'Diamondprox', 1992);
+insert into Player values (34, 'Alex Ich', 1992);
+insert into Player values (35, 'Genja', 1988);
+insert into Player values (36, 'GoSu Pepper', 1994);
+
+-- CLG.EU
+insert into Player values (37, 'Wickd', 1994);
+insert into Player values (38, 'Snoopeh', 1991);
+insert into Player values (39, 'Froggen', 1994);
+insert into Player values (40, 'yellowpete', 1989);
+insert into Player values (41, 'Krepo', 1990);
+
+-- NJBS
+insert into Player values (43, 'Expression', 1992);
+insert into Player values (44, 'Watch', 1992);
+insert into Player values (45, 'Nagne', 1994);
+insert into Player values (46, 'PraY', 1994);
+insert into Player values (47, 'Cain', 1987);
+
+-- RYL
+insert into Player values (48, 'GoDlike', 1993);
+insert into Player values (49, 'Lucky', 1993);
+insert into Player values (50, 'Wh1t3zZ', 0);
+insert into Player values (51, 'Uzi', 1997);
+insert into Player values (52, 'Tabe', 1991);
+insert into Player values (74, 'Cola', 1994);
+insert into Player values (75, 'inSec', 1993);
+insert into Player values (76, 'corn', 1997);
+insert into Player values (77, 'Zero', 1994);
+insert into Player values (78, 'VicaL', 1986);
+
+-- SKT
+insert into Player values (53, 'Impact', 1995);
+insert into Player values (54, 'Bengi', 1993);
+insert into Player values (55, 'Faker', 1996);
+insert into Player values (56, 'Piglet', 1994);
+insert into Player values (57, 'PoohManDu', 1991);
+insert into Player values (93, 'MaRin', 1991);
+insert into Player values (94, 'Easyhoon', 1992);
+insert into Player values (95, 'Bang', 1996);
+insert into Player values (96, 'Wolf', 1996);
+insert into Player values (97, 'Duke', 1994);
+insert into Player values (98, 'Blank', 1998);
+insert into Player values (140, 'Khan', 1998);
+insert into Player values (141, 'Clid', 1998);
+insert into Player values (142, 'Teddy', 1998);
+insert into Player values (143, 'Effort', 1998);
+
+
+-- SSW
+insert into Player values (58, 'Looper', 1993);
+insert into Player values (59, 'Dandy', 1994);
+insert into Player values (60, 'PawN', 1997);
+insert into Player values (61, 'imp', 1995);
+insert into Player values (62, 'Mata', 1994);
+
+-- SSB
+insert into Player values (63, 'Acorn', 1990);
+insert into Player values (64, 'Spirit', 1996);
+insert into Player values (65, 'Dade', 1994);
+insert into Player values (66, 'Deft', 1996);
+insert into Player values (67, 'Heart', 1988);
+
+-- OMG
+insert into Player values (68, 'Gogoing', 1991);
+insert into Player values (69, 'Loveling', 1993);
+insert into Player values (70, 'cool', 1994);
+insert into Player values (71, 'san', 1993);
+insert into Player values (72, 'DaDa777', 1989);
+insert into Player values (73, 'Cloud', 1994);
+
+-- KOO
+insert into Player values (84, 'Smeb', 1995);
+insert into Player values (85, 'Hojin', 1992);
+insert into Player values (86, 'Kuro', 1994);
+insert into Player values (87, 'PraY', 1994);
+insert into Player values (88, 'GorillA', 1994);
+
+-- OG
+insert into Player values (91, 'Amazing', 1994);
+insert into Player values (92, 'Niels', 1997);
+insert into Player values (83, 'Mithy', 1994);
+
+-- SSG
+insert into Player values (99, 'CuVee', 1996);
+insert into Player values (100, 'Ambition', 1992);
+insert into Player values (101, 'Crown', 1995);
+insert into Player values (102, 'Ruler', 1998);
+insert into Player values (103, 'Wraith', 1995);
+insert into Player values (104, 'CoreJJ', 1994);
+
+-- ROX
+insert into Player values (105, 'Peanut', 1998);
+
+-- H2K
+insert into Player values (106, 'Odoamne', 1995);
+insert into Player values (107, 'Jankos', 1995);
+insert into Player values (108, 'Ryu', 1994);
+insert into Player values (109, 'FORG1VEN', 1992);
+insert into Player values (110, 'Vander', 1994);
+
+-- RNG
+insert into Player values (111, 'Letme', 1996);
+insert into Player values (112, 'Mlxg', 1996);
+insert into Player values (113, 'Xiaohu', 1998);
+insert into Player values (114, 'Ming', 1998);
+
+-- WE
+insert into Player values (115, '957', 1993);
+insert into Player values (116, 'Condi', 1996);
+insert into Player values (117, 'xiye', 1997);
+insert into Player values (118, 'Mystic', 1995);
+insert into Player values (119, 'Ben', 1995);
+
+-- IG
+insert into Player values (120, 'TheShy', 1999);
+insert into Player values (158, 'Ning', 1998);
+insert into Player values (159, 'Rookie', 1997);
+insert into Player values (160, 'JackeyLove', 2000);
+insert into Player values (161, 'Baolan', 1999);
+insert into Player values (139, 'Leyan', 2002);
+
+-- G2
+insert into Player values (162, 'Wunder', 1998);
+insert into Player values (127, 'Perkz', 1998);
+insert into Player values (128, 'Hjarnan', 1993);
+insert into Player values (129, 'Wadid', 1997);
+insert into Player values (138, 'Mikyx', 1998);
+
+
+-- C9
+insert into Player values (121, 'Licorice', 1997);
+insert into Player values (122, 'Svenskeren', 1996);
+insert into Player values (123, 'Jensen', 1995);
+insert into Player values (124, 'Sneaky', 1994);
+insert into Player values (125, 'Zeyzal', 1999);
+insert into Player values (126, 'Blaber', 2000);
+
+-- FPX
+insert into Player values (133, 'GimGoon', 1995);
+insert into Player values (134, 'Tian', 2000);
+insert into Player values (135, 'Doinb', 1996);
+insert into Player values (136, 'Lwx', 1998);
+insert into Player values (137, 'Crisp', 1998);
+
+-- DWG
+insert into Player values (144, 'Nuguri', 1999);
+insert into Player values (145, 'Canyon', 2001);
+insert into Player values (146, 'ShowMaker', 2000);
+insert into Player values (147, 'Ghost', 1999);
+insert into Player values (148, 'BeryL', 1997);
+
+-- SN
+insert into Player values (149, 'Bin', 2002);
+insert into Player values (150, 'SofM', 1998);
+insert into Player values (151, 'Angel', 2000);
+insert into Player values (152, 'huanfeng', 2001);
+insert into Player values (153, 'SwordArt', 1996);
+
+-- TES
+insert into Player values (154, '369', 2001);
+insert into Player values (155, 'Karsa', 1997);
+insert into Player values (156, 'knight', 2000);
+insert into Player values (157, 'yuyanjia', 1997);
+
+
+
+
+insert into WorldChampion values ('S1', 2011, 'FNC', 'aAa');
+insert into WorldChampion values ('S2', 2012, 'TPA', 'AZF');
+insert into WorldChampion values ('S3', 2013, 'SKT', 'RYL');
+insert into WorldChampion values ('S4', 2014, 'SSW', 'RYL');
+insert into WorldChampion values ('S5', 2015, 'SKT', 'KOO');
+insert into WorldChampion values ('S6', 2016, 'SKT', 'SSG');
+insert into WorldChampion values ('S7', 2017, 'SSG', 'SKT');
+insert into WorldChampion values ('S8', 2018, 'IG', 'FNC');
+insert into WorldChampion values ('S9', 2019, 'FPX', 'G2');
+insert into WorldChampion values ('S10', 2020, 'DWG', 'SN');
+
+
+
+
+
+
+insert into Register values (1, 'FNC', 'S1', 'top');
+insert into Register values (2, 'FNC', 'S1', 'top');
+insert into Register values (7, 'aAa', 'S1', 'top');
+insert into Register values (12, 'TSM', 'S1', 'top');
+insert into Register values (17, 'EG', 'S1', 'top');
+insert into Register values (3, 'FNC', 'S1', 'jgl');
+insert into Register values (8, 'aAa', 'S1', 'jgl');
+insert into Register values (13, 'TSM', 'S1', 'jgl');
+insert into Register values (18, 'EG', 'S1', 'jgl');
+insert into Register values (4, 'FNC', 'S1', 'mid');
+insert into Register values (9, 'aAa', 'S1', 'mid');
+insert into Register values (14, 'TSM', 'S1', 'mid');
+insert into Register values (19, 'EG', 'S1', 'mid');
+insert into Register values (5, 'FNC', 'S1', 'bot');
+insert into Register values (10, 'aAa', 'S1', 'bot');
+insert into Register values (15, 'TSM', 'S1', 'bot');
+insert into Register values (20, 'EG', 'S1', 'bot');
+insert into Register values (6, 'FNC', 'S1', 'sup');
+insert into Register values (11, 'aAa', 'S1', 'sup');
+insert into Register values (16, 'TSM', 'S1', 'sup');
+insert into Register values (21, 'EG', 'S1', 'sup');
+
+insert into Register values (22, 'TPA', 'S2', 'top');
+insert into Register values (23, 'TPA', 'S2', 'jgl');
+insert into Register values (24, 'TPA', 'S2', 'mid');
+insert into Register values (25, 'TPA', 'S2', 'bot');
+insert into Register values (26, 'TPA', 'S2', 'sup');
+insert into Register values (27, 'AZF', 'S2', 'top');
+insert into Register values (28, 'AZF', 'S2', 'jgl');
+insert into Register values (29, 'AZF', 'S2', 'mid');
+insert into Register values (30, 'AZF', 'S2', 'bot');
+insert into Register values (31, 'AZF', 'S2', 'sup');
+insert into Register values (32, 'M5', 'S2', 'top');
+insert into Register values (33, 'M5', 'S2', 'jgl');
+insert into Register values (34, 'M5', 'S2', 'mid');
+insert into Register values (35, 'M5', 'S2', 'bot');
+insert into Register values (36, 'M5', 'S2', 'sup');
+insert into Register values (37, 'CLG.EU', 'S2', 'top');
+insert into Register values (38, 'CLG.EU', 'S2', 'jgl');
+insert into Register values (39, 'CLG.EU', 'S2', 'mid');
+insert into Register values (40, 'CLG.EU', 'S2', 'bot');
+insert into Register values (41, 'CLG.EU', 'S2', 'sup');
+
+insert into Register values (7, 'FNC', 'S3', 'top');
+insert into Register values (3, 'FNC', 'S3', 'jgl');
+insert into Register values (2, 'FNC', 'S3', 'mid');
+insert into Register values (42, 'FNC', 'S3', 'bot');
+insert into Register values (10, 'FNC', 'S3', 'sup');
+insert into Register values (43, 'NJBS', 'S3', 'top');
+insert into Register values (44, 'NJBS', 'S3', 'jgl');
+insert into Register values (45, 'NJBS', 'S3', 'mid');
+insert into Register values (46, 'NJBS', 'S3', 'bot');
+insert into Register values (47, 'NJBS', 'S3', 'sup');
+insert into Register values (48, 'RYL', 'S3', 'top');
+insert into Register values (49, 'RYL', 'S3', 'jgl');
+insert into Register values (50, 'RYL', 'S3', 'mid');
+insert into Register values (51, 'RYL', 'S3', 'bot');
+insert into Register values (52, 'RYL', 'S3', 'sup');
+insert into Register values (53, 'SKT', 'S3', 'top');
+insert into Register values (54, 'SKT', 'S3', 'jgl');
+insert into Register values (55, 'SKT', 'S3', 'mid');
+insert into Register values (56, 'SKT', 'S3', 'bot');
+insert into Register values (57, 'SKT', 'S3', 'sup');
+
+insert into Register values (58, 'SSW', 'S4', 'top');
+insert into Register values (59, 'SSW', 'S4', 'jgl');
+insert into Register values (60, 'SSW', 'S4', 'mid');
+insert into Register values (61, 'SSW', 'S4', 'bot');
+insert into Register values (62, 'SSW', 'S4', 'sup');
+insert into Register values (63, 'SSB', 'S4', 'top');
+insert into Register values (64, 'SSB', 'S4', 'jgl');
+insert into Register values (65, 'SSB', 'S4', 'mid');
+insert into Register values (66, 'SSB', 'S4', 'bot');
+insert into Register values (67, 'SSB', 'S4', 'sup');
+insert into Register values (74, 'RYL', 'S4', 'top');
+insert into Register values (75, 'RYL', 'S4', 'jgl');
+insert into Register values (76, 'RYL', 'S4', 'mid');
+insert into Register values (51, 'RYL', 'S4', 'bot');
+insert into Register values (77, 'RYL', 'S4', 'sup');
+insert into Register values (78, 'RYL', 'S4', 'sup');
+insert into Register values (68, 'OMG', 'S4', 'top');
+insert into Register values (69, 'OMG', 'S4', 'jgl');
+insert into Register values (70, 'OMG', 'S4', 'mid');
+insert into Register values (71, 'OMG', 'S4', 'bot');
+insert into Register values (72, 'OMG', 'S4', 'sup');
+
+insert into Register values (93, 'SKT', 'S5', 'top');
+insert into Register values (54, 'SKT', 'S5', 'jgl');
+insert into Register values (55, 'SKT', 'S5', 'mid');
+insert into Register values (94, 'SKT', 'S5', 'mid');
+insert into Register values (95, 'SKT', 'S5', 'bot');
+insert into Register values (96, 'SKT', 'S5', 'sup');
+insert into Register values (84, 'KOO', 'S5', 'top');
+insert into Register values (85, 'KOO', 'S5', 'jgl');
+insert into Register values (86, 'KOO', 'S5', 'mid');
+insert into Register values (87, 'KOO', 'S5', 'bot');
+insert into Register values (88, 'KOO', 'S5', 'sup');
+insert into Register values (79, 'FNC', 'S5', 'top');
+insert into Register values (80, 'FNC', 'S5', 'jgl');
+insert into Register values (81, 'FNC', 'S5', 'mid');
+insert into Register values (82, 'FNC', 'S5', 'bot');
+insert into Register values (10, 'FNC', 'S5', 'sup');
+insert into Register values (7, 'OG', 'S5', 'top');
+insert into Register values (91, 'OG', 'S5', 'jgl');
+insert into Register values (2, 'OG', 'S5', 'mid');
+insert into Register values (92, 'OG', 'S5', 'bot');
+insert into Register values (93, 'OG', 'S5', 'sup');
+
+insert into Register values (97, 'SKT', 'S6', 'top');
+insert into Register values (54, 'SKT', 'S6', 'jgl');
+insert into Register values (98, 'SKT', 'S6', 'jgl');
+insert into Register values (55, 'SKT', 'S6', 'mid');
+insert into Register values (95, 'SKT', 'S6', 'bot');
+insert into Register values (96, 'SKT', 'S6', 'sup');
+insert into Register values (99, 'SSG', 'S6', 'top');
+insert into Register values (100, 'SSG', 'S6', 'jgl');
+insert into Register values (101, 'SSG', 'S6', 'mid');
+insert into Register values (102, 'SSG', 'S6', 'bot');
+insert into Register values (103, 'SSG', 'S6', 'sup');
+insert into Register values (104, 'SSG', 'S6', 'sup');
+insert into Register values (84, 'ROX', 'S6', 'top');
+insert into Register values (105, 'ROX', 'S6', 'jgl');
+insert into Register values (86, 'ROX', 'S6', 'mid');
+insert into Register values (87, 'ROX', 'S6', 'bot');
+insert into Register values (88, 'ROX', 'S6', 'sup');
+insert into Register values (106, 'H2K', 'S6', 'top');
+insert into Register values (107, 'H2K', 'S6', 'jgl');
+insert into Register values (108, 'H2K', 'S6', 'mid');
+insert into Register values (109, 'H2K', 'S6', 'bot');
+insert into Register values (110, 'H2K', 'S6', 'sup');
+
+insert into Register values (97, 'SKT', 'S7', 'top');
+insert into Register values (54, 'SKT', 'S7', 'jgl');
+insert into Register values (98, 'SKT', 'S7', 'jgl');
+insert into Register values (55, 'SKT', 'S7', 'mid');
+insert into Register values (95, 'SKT', 'S7', 'bot');
+insert into Register values (96, 'SKT', 'S7', 'sup');
+insert into Register values (99, 'SSG', 'S7', 'top');
+insert into Register values (100, 'SSG', 'S7', 'jgl');
+insert into Register values (101, 'SSG', 'S7', 'mid');
+insert into Register values (102, 'SSG', 'S7', 'bot');
+insert into Register values (104, 'SSG', 'S7', 'sup');
+insert into Register values (111, 'RNG', 'S7', 'top');
+insert into Register values (112, 'RNG', 'S7', 'jgl');
+insert into Register values (113, 'RNG', 'S7', 'mid');
+insert into Register values (51, 'RNG', 'S7', 'bot');
+insert into Register values (114, 'RNG', 'S7', 'sup');
+insert into Register values (115, 'WE', 'S7', 'top');
+insert into Register values (116, 'WE', 'S7', 'jgl');
+insert into Register values (117, 'WE', 'S7', 'mid');
+insert into Register values (118, 'WE', 'S7', 'bot');
+insert into Register values (119, 'WE', 'S7', 'sup');
+
+insert into Register values (97, 'IG', 'S8', 'top');
+insert into Register values (120, 'IG', 'S8', 'top');
+insert into Register values (158, 'IG', 'S8', 'jgl');
+insert into Register values (159, 'IG', 'S8', 'mid');
+insert into Register values (160, 'IG', 'S8', 'bot');
+insert into Register values (161, 'IG', 'S8', 'sup');
+insert into Register values (7, 'FNC', 'S8', 'top');
+insert into Register values (90, 'FNC', 'S8', 'top');
+insert into Register values (130, 'FNC', 'S8', 'jgl');
+insert into Register values (131, 'FNC', 'S8', 'mid');
+insert into Register values (82, 'FNC', 'S8', 'bot');
+insert into Register values (132, 'FNC', 'S8', 'sup');
+insert into Register values (162, 'G2', 'S8', 'top');
+insert into Register values (107, 'G2', 'S8', 'jgl');
+insert into Register values (127, 'G2', 'S8', 'mid');
+insert into Register values (128, 'G2', 'S8', 'bot');
+insert into Register values (129, 'G2', 'S8', 'sup');
+insert into Register values (121, 'C9', 'S8', 'top');
+insert into Register values (122, 'C9', 'S8', 'jgl');
+insert into Register values (123, 'C9', 'S8', 'jgl');
+insert into Register values (124, 'C9', 'S8', 'mid');
+insert into Register values (125, 'C9', 'S8', 'bot');
+insert into Register values (126, 'C9', 'S8', 'sup');
+
+insert into Register values (133, 'FPX', 'S9', 'top');
+insert into Register values (134, 'FPX', 'S9', 'jgl');
+insert into Register values (135, 'FPX', 'S9', 'mid');
+insert into Register values (136, 'FPX', 'S9', 'bot');
+insert into Register values (137, 'FPX', 'S9', 'sup');
+insert into Register values (162, 'G2', 'S9', 'top');
+insert into Register values (107, 'G2', 'S9', 'jgl');
+insert into Register values (131, 'G2', 'S9', 'mid');
+insert into Register values (127, 'G2', 'S9', 'bot');
+insert into Register values (138, 'G2', 'S9', 'sup');
+insert into Register values (120, 'IG', 'S9', 'top');
+insert into Register values (139, 'IG', 'S9', 'jgl');
+insert into Register values (158, 'IG', 'S9', 'jgl');
+insert into Register values (159, 'IG', 'S9', 'mid');
+insert into Register values (160, 'IG', 'S9', 'bot');
+insert into Register values (161, 'IG', 'S9', 'sup');
+insert into Register values (140, 'SKT', 'S9', 'top');
+insert into Register values (141, 'SKT', 'S9', 'jgl');
+insert into Register values (55, 'SKT', 'S9', 'mid');
+insert into Register values (142, 'SKT', 'S9', 'bot');
+insert into Register values (143, 'SKT', 'S9', 'sup');
+insert into Register values (62, 'SKT', 'S9', 'sup');
+
+insert into Register values (144, 'DWG', 'S10', 'top');
+insert into Register values (145, 'DWG', 'S10', 'jgl');
+insert into Register values (146, 'DWG', 'S10', 'mid');
+insert into Register values (147, 'DWG', 'S10', 'bot');
+insert into Register values (148, 'DWG', 'S10', 'sup');
+insert into Register values (149, 'SN', 'S10', 'top');
+insert into Register values (150, 'SN', 'S10', 'jgl');
+insert into Register values (151, 'SN', 'S10', 'mid');
+insert into Register values (152, 'SN', 'S10', 'bot');
+insert into Register values (153, 'SN', 'S10', 'sup');
+insert into Register values (154, 'TES', 'S10', 'top');
+insert into Register values (155, 'TES', 'S10', 'jgl');
+insert into Register values (156, 'TES', 'S10', 'mid');
+insert into Register values (160, 'TES', 'S10', 'bot');
+insert into Register values (157, 'TES', 'S10', 'sup');
+insert into Register values (162, 'G2', 'S10', 'top');
+insert into Register values (107, 'G2', 'S10', 'jgl');
+insert into Register values (131, 'G2', 'S10', 'mid');
+insert into Register values (127, 'G2', 'S10', 'bot');
+insert into Register values (138, 'G2', 'S10', 'sup');
+
+
+
+
+insert into Matches values (1, 'S1', 'aAa', 'FNC', 0, 2, 'Semifinal');
+insert into Matches values (2, 'S1', 'aAa', 'TSM', 2, 0, 'Semifinal');
+insert into Matches values (3, 'S1', 'aAa', 'FNC', 1, 2, 'Final');
+
+insert into Matches values (4, 'S2', 'M5', 'TPA', 1, 2, 'Semifinal');
+insert into Matches values (5, 'S2', 'AZF', 'CLG.EU', 2, 1, 'Semifinal');
+insert into Matches values (6, 'S2', 'AZF', 'TPA', 1, 3, 'Final');
+
+insert into Matches values (7, 'S3', 'NJBS', 'SKT', 2, 3, 'Semifinal');
+insert into Matches values (8, 'S3', 'FNC', 'RYL', 1, 3, 'Semifinal');
+insert into Matches values (9, 'S3', 'RYL', 'SKT', 0, 3, 'Final');
+
+insert into Matches values (10, 'S4', 'SSB', 'SSW', 0, 3, 'Semifinal');
+insert into Matches values (11, 'S4', 'OMG', 'RYL', 2, 3, 'Semifinal');
+insert into Matches values (12, 'S4', 'RYL', 'SSW', 1, 3, 'Final');
+
+insert into Matches values (13, 'S5', 'OG', 'SKT', 0, 3, 'Semifinal');
+insert into Matches values (14, 'S5', 'FNC', 'KOO', 0, 3, 'Semifinal');
+insert into Matches values (15, 'S5', 'KOO', 'SKT', 1, 3, 'Final');
+
+insert into Matches values (16, 'S6', 'ROX', 'SKT', 2, 3, 'Semifinal');
+insert into Matches values (17, 'S6', 'H2K', 'SSG', 0, 3, 'Semifinal');
+insert into Matches values (18, 'S6', 'SKT', 'SSG', 3, 2, 'Final');
+
+insert into Matches values (19, 'S7', 'RNG', 'SKT', 2, 3, 'Semifinal');
+insert into Matches values (20, 'S7', 'SSG', 'WE', 3, 1, 'Semifinal');
+insert into Matches values (21, 'S7', 'SKT', 'SSG', 0, 3, 'Final');
+
+insert into Matches values (22, 'S8', 'C9', 'FNC', 0, 3, 'Semifinal');
+insert into Matches values (23, 'S8', 'G2', 'IG', 0, 3, 'Semifinal');
+insert into Matches values (24, 'S8', 'FNC', 'IG', 0, 3, 'Final');
+
+insert into Matches values (25, 'S9', 'G2', 'SKT', 3, 1, 'Semifinal');
+insert into Matches values (26, 'S9', 'FPX', 'IG', 3, 1, 'Semifinal');
+insert into Matches values (27, 'S9', 'FPX', 'G2', 3, 0, 'Final');
+
+insert into Matches values (28, 'S10', 'SN', 'TES', 3, 1, 'Semifinal');
+insert into Matches values (29, 'S10', 'DWG', 'G2', 3, 1, 'Semifinal');
+insert into Matches values (30, 'S10', 'DWG', 'SN', 3, 1, 'Final');
+

@@ -1,0 +1,1 @@
+Because our data is collected from a few hundred of websites that cannot be express to any format which sql can read. So we choose to type our data out into a txt file. Please open it in psql after the schema.ddl is run.

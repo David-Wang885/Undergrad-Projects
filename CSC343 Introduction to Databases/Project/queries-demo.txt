@@ -1,0 +1,70 @@
+csc343h-wangr110=> \i schema.ddl;
+
+csc343h-wangr110=> \i championData.txt;
+
+csc343h-wangr110=> \i queries.sql
+SET
+psql:queries.sql:7: NOTICE:  table "youngest" does not exist, skipping
+DROP TABLE
+psql:queries.sql:8: NOTICE:  table "oldest" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+psql:queries.sql:25: NOTICE:  view "championplayers" does not exist, skipping
+DROP VIEW
+psql:queries.sql:26: NOTICE:  view "playerage" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+INSERT 0 3
+INSERT 0 1
+psql:queries.sql:67: NOTICE:  table "fate" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+psql:queries.sql:77: NOTICE:  view "similarmatch" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+INSERT 0 2
+psql:queries.sql:104: NOTICE:  table "toughgame" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+psql:queries.sql:113: NOTICE:  view "toughmatches" does not exist, skipping
+DROP VIEW
+psql:queries.sql:114: NOTICE:  view "toughteam" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+INSERT 0 7
+
+csc343h-wangr110=> select * from youngest;
+  name   | age | league
+---------+-----+--------
+ Cyanide |  17 | LEC
+ Faker   |  17 | LCK
+ PawN    |  17 | LCK
+(3 rows)
+
+csc343h-wangr110=> select * from oldest;
+   name   | age | league
+----------+-----+--------
+ Ambition |  25 | LCK
+(1 row)
+
+csc343h-wangr110=> select * from fate;
+ teamname1 | teamname2 | matches
+-----------+-----------+---------
+ SKT       | SSG       |       2
+ aAa       | FNC       |       2
+(2 rows)
+
+csc343h-wangr110=> select * from toughgame;
+      teamname       | toughgame
+---------------------+-----------
+ SK Telecom T1       |         4
+ Oh My God           |         1
+ ROX Tigers          |         1
+ NaJin Black Sword   |         1
+ Royal Never Give Up |         1
+ Samsung Galaxy      |         1
+ Royal Club          |         1
+(7 rows)
